@@ -1,0 +1,16 @@
+# No node
+node_modules/*
+
+# No config files
+gulpfile.js
+package-lock.json
+package.json
+
+# No less
+less/*
+
+# No sass
+sass/*
+
+# Ignore OSX crumbs
+*.DS_Store
