@@ -1,6 +1,6 @@
 /*!
  * Mundubila - Mundubila v1.0 (http://mundubila.github.io)
- * Copyright 2017 Unknown
+ * Copyright 2018 Unknown
  * Licensed under MIT (http://mundubila.github.io)
  */
 @font-face {
@@ -181,8 +181,9 @@ b {
   right: 0;
   bottom: 0;
   margin: auto;
-  background-color: black;
-  /* DodgerBlue; */
+  background: linear-gradient(346deg, #00dea9 0%, #007488 41%, #00d4ff 100%);
+  /* background: linear-gradient(109deg, rgba(0,102,166,1) 0%, rgba(9,104,121,1) 25%, rgba(0,212,255,1) 100%); */
+  /* background-color: black; /* DodgerBlue; */
   opacity: 0.50;
   width: 330px;
   height: 330px;
@@ -317,6 +318,10 @@ b {
     height: 435px;
     width: auto;
   }
+}
+.achievements {
+  height: 570px;
+  overflow: scroll;
 }
 .team-img {
   width: 140px;
