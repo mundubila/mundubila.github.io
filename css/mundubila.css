@@ -1,6 +1,6 @@
 /*!
  * Mundubila - Mundubila v1.0 (http://mundubila.github.io)
- * Copyright 2018 Unknown
+ * Copyright 2019 Unknown
  * Licensed under MIT (http://mundubila.github.io)
  */
 @font-face {
@@ -123,7 +123,7 @@ b {
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
-@media (min-width: 768px) {
+@media (min-width: 1050px) {
   .navbar-custom {
     padding: 13px 0;
     border-bottom: none;
